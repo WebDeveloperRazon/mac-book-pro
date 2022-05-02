@@ -1,0 +1,124 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    min-height: 991px;
+}
+.mac-computer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.mac-img {
+    flex-basis: 40%;
+    position: relative;
+    text-align: center;
+   
+}
+.mac-img img {
+    width: 100%;
+    transform: translateX(7rem);
+    
+}
+.mac-text{
+    flex-basis:40%
+}
+.mac-text .text-heading{
+    font-weight:700 ;
+}
+.mac-text .text-normal {
+    color: dimgray;
+    
+}
+.memory{
+    margin-top:50px
+}
+.memory h3{
+    padding-bottom:5px;
+}
+.memory button{
+    background-color: #fff;
+    padding:5px 10px ;
+    color:black ;
+    border: 1px solid lightgray;
+    
+}
+.storage{
+    margin-top:30px
+}
+.storage h3{
+    padding-bottom:5px;
+
+}
+.storage button{
+    background-color: #fff;
+    padding:5px 10px ;
+    color:black ;
+    border: 1px solid lightgray;
+}
+.pricing{
+    margin-top:30px ;
+    
+}
+.best{
+    display:flex;
+    max-width: 60%;
+    border-bottom: 1px solid lightgray;
+    gap:5rem ;
+}
+.best h4{
+    padding-bottom:5px ;
+}
+.best .text-name{
+    flex-basis: 55%;
+  
+}
+.promo{
+    margin-top:30px ;
+   
+}
+.promo .promo-name{
+    padding-bottom:5px ;
+}
+.promo input[type=text]{
+    border:1px solid lightgray;
+    background-color:#fff ;
+    height:25px  ;
+
+}
+.promo button{
+  padding: 5px 15px;
+  background-color:deeppink ;
+  border-radius: 5px;
+  color: white;
+  border:none ;
+}
+.total{
+    display:flex;
+    max-width: 60%;
+    gap:5rem ;
+    margin-top:5px ;
+
+}
+.total .text-name{
+    flex-basis:55% ;
+}
+.delivery-cost{
+    border-bottom:3px solid black ;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+}
+button:hover{
+    background-color:gray ;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook computer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mac-computer " >
+        <div class="mac-img">
+            <img src="images/mac.png" alt="">
+        </div>
+        <div class="mac-text">
+           <div class="text-heading">
+            <h1>Customize your Blur 24-inch <br/> </h1>
+            <h1>iMac with Apple M1 chip</h1>
+           </div>
+           <div class="text-normal">
+               <p>Apple M1 chip with 8-core Cpu with 4 performance crores and 4 efficiency 
+               cores, 7 crore Gpu and 16 crore Neural Engine 8GB unified memory 256GB
+               SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard -
+               US English</P>
+
+           </div>
+           <div class=" memory">
+               <h3>Memory</h3>
+                <button id="memory-8">8GB Unified Memory</button>
+                <button id="memory-16"> 16GB Unified Memory</button>
+           </div>
+           <div class="storage">
+               <h3>Storage</h3>
+               <button id="storage-256">256GB SSD Storage</button>
+               <button id="storage-512">512GB SSD Storage</button>
+               <button id="storage-1024">1TB SSD Storage</button>
+
+           </div>
+           <div class="storage">
+               <h3>Choose your delivery option</h3>
+               <button id="delivery-fri">Friday, Aug 25 FREE Prime Delivery</button>
+               <button id="delivery-urgent" > 
+                Friday, Aug 21 FREE Prime Delivery,charge $20
+               </button>
+           </div>
+           <div class="pricing" id="total-calculation">
+               <div class="best">
+                   <h4 class="text-name">Best Price</h4>
+                   <h4 class="text-price">$1299</h4>
+               </div>
+               <div class="extra-cost best">
+                   <h4 class="text-name"> Extra Memory Charge</h4>
+                   <h4 class="text-price" > $ <span id="memory-charge">0</span> </h4>
+
+               </div>
+               <div class="storage-cost best">
+                   <h4 class="text-name">Extra Storage Charge</h4>
+                   <h4>$ <span id="storage-charge">0</span> </h4>
+               </div>
+               <div class="delivery-cost best">
+                   <h4 class="text-name"> Delivery Charge</h4>
+                   <h4 >$ <span id="delivery-charge">0</span> </h4>
+               </div>
+               <div class="total ">
+                   <h4 class="text-name">Total Price</h4>
+                   <h4>$ <span class="sub-total">1299</span> </h4>
+
+               </div>
+               <div class="promo">
+                   <h6 class="promo-name">Add Promo Code</h6>
+                   <input type="text" id="promo-code">
+                   <button id="apply-promo-code" title="promo-code (razon)">Apply</button>
+               </div>
+
+           </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Total : </h1>
+        <h1 >$<span id="grand-total">1299</span> </h1>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
